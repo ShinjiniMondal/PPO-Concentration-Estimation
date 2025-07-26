@@ -203,7 +203,7 @@ def compute_area(wavelengths, absorbance, start_wl, end_wl):
 # Main function that takes input from user in the order - .spc file containing UV-Vis Data, start and stop wavlengths of the input spectrum plot, interval at which the data is taken, normalization wavelength.
 def main():
     if len(sys.argv) != 6:
-        print("Usage: python bis_calculate_concentration.py <file.spc> <start_wl> <end_wl> <norm_wl>")
+        print("Usage: python ppo_calculate_concentration.py <file.spc> <start_wl> <end_wl> <norm_wl>")
         sys.exit(1)
 
     spc_file = sys.argv[1]
